@@ -78,6 +78,7 @@ b. Configure the bucket to host a static website with index.html set as the inde
 - Save the changes to your S3.yaml file.
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/d0c8b76q2e924dcpp78e.png)
+
 Next, you validate your template.
 - In the Bash terminal, change the directory back to the location of the S3.yaml file and validate your template by running the following commands.
 
@@ -333,7 +334,9 @@ aws s3 cp templates/cafe-app.yaml s3://<repobucket-bucketname>/
 Configure the following:
 
 a. Choose Create stack and then choose With new resources (standard).
+
 b. On the Create stack page, for Amazon S3 URL, enter the object URL that you just copied.
+
 c. On the Specify stack details page, configure the following options: 
 
 i. Stack name: Enter a name.
